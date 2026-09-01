@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 export default function Navbar({ onHomeClick }) {
   return (
@@ -9,7 +10,7 @@ export default function Navbar({ onHomeClick }) {
           onClick={onHomeClick}
           className="flex items-center gap-3 text-left focus:outline-none"
         >
-          <img src="/logo.png" alt="Daily Zikr Logo" className="w-9 h-9 rounded-xl object-contain" />
+          <img src={logoImg} alt="Daily Zikr Logo" className="w-9 h-9 rounded-xl object-contain" />
           <div>
             <span className="font-bold text-lg text-white tracking-wide block leading-tight">Daily Zikr</span>
             <span className="text-[10px] text-emerald-400 font-medium dir-rtl">ڈیجیٹل تسبیح</span>
