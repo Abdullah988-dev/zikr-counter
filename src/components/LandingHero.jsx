@@ -6,7 +6,7 @@ export default function LandingHero({ onOpenWebApp }) {
     <section className="flex-1 flex flex-col items-center justify-center text-center px-4 py-8 max-w-md mx-auto w-full">
       {/* App Main Logo */}
       <div className="w-24 h-24 mb-6 shadow-2xl shadow-emerald-600/30 rounded-3xl overflow-hidden border border-emerald-500/30">
-        <img src="/daily_zikar_icon_only.png" alt="Daily Zikr Logo" className="w-full h-full object-cover" />
+        <img src="/logo.png" alt="Daily Zikr Logo" className="w-full h-full object-cover" />
       </div>
 
       {/* Main Heading */}
