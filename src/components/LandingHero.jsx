@@ -40,7 +40,7 @@ export default function LandingHero({ onOpenWebApp }) {
       {/* Buttons Container */}
       <div className="w-full space-y-3">
         <a
-          href="/downlond.apk"
+          href="/download.apk"
           download="DailyZikrApp.apk"
           className="w-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold py-3.5 px-5 rounded-2xl shadow-lg shadow-emerald-500/20 flex items-center justify-center gap-2.5 transition active:scale-95 text-sm"
         >
