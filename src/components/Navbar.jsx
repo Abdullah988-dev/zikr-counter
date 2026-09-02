@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles } from 'lucide-react';
+import { Download } from 'lucide-react';
 import logoImg from '../assets/logo.png';
 
 export default function Navbar({ onHomeClick }) {
@@ -16,10 +16,16 @@ export default function Navbar({ onHomeClick }) {
             <span className="text-[10px] text-emerald-400 font-medium dir-rtl">ڈیجیٹل تسبیح</span>
           </div>
         </button>
-        <div className="flex items-center gap-1 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-xs font-medium">
-          <Sparkles size={12} />
-          <span>v1.0 Ready</span>
-        </div>
+
+        {/* Download APK Button */}
+        <a 
+          href="/application.apk" 
+          download="DailyZikrApp.apk"
+          className="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-3 py-1.5 rounded-lg text-xs transition-colors"
+        >
+          <Download size={14} />
+          <span>Download App</span>
+        </a>
       </div>
     </nav>
   );
