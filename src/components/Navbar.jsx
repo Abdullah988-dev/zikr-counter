@@ -19,7 +19,7 @@ export default function Navbar({ onHomeClick }) {
 
         {/* Download APK Button */}
         <a 
-          href="/application.apk" 
+          href="/downlond.apk" 
           download="DailyZikrApp.apk"
           className="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold px-3 py-1.5 rounded-lg text-xs transition-colors"
         >
